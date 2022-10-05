@@ -1,5 +1,5 @@
 <?php
-namespace Lbnetprofit\ContaoAenderungsdatumExtension\DependencyInjection;
+namespace Lbnetprofit\ContaoAenderungsdatumBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
