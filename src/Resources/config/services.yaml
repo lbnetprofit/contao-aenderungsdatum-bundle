@@ -1,0 +1,8 @@
+services:
+    _defaults:
+        autoconfigure: true
+    Lbnetprofit\ContaoAenderungsdatumBundle\EventListener\AenderungsdatumGlobalInsertTagListener:
+        tags:
+            -
+                name: contao.hook
+                hook: replaceInsertTags

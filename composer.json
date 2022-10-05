@@ -1,0 +1,21 @@
+{
+    "name": "lbnetprofit/contao-aenderungsdatum-bundle",
+    "type": "contao-bundle",
+    "require": {
+        "contao/core-bundle": "^4.9 | ^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lbnetprofit\\ContaoAenderungsdatumBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lukas Bableck",
+            "email": "lukas.bableck@netprofit.de"
+        }
+    ],
+    "extra": {
+        "contao-manager-plugin": "Lbnetprofit\\ContaoAenderungsdatumBundle\\ContaoManager\\Plugin"
+    }
+}
